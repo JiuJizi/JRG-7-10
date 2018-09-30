@@ -26,13 +26,13 @@ if(path == '/'){
   response.write('<!DOCTYPE>\n<html>'  + 
       '<head><link rel="stylesheet" href="/style.css">' +
       '</head><body>'  +
-      '<h1>404 NotFound!</h1>' +
+      '<h1>开玩笑的QWQ</h1>' +
       '<script src="/main.js"></script>' +
       '</body></html>'
    )
  }else if(path == '/style.css'){
   response.setHeader('Content-Type', 'text/css; charset=utf-8')
-  response.write('body{background-color: red;}h1{color: black;}')
+  response.write('body{background-color: #82ECFF;}h1{color: black;}')
   response.end()
  }else if(path == '/main.js'){
   response.setHeader('Content-Type', 'text/javascript; charset=utf-8')
