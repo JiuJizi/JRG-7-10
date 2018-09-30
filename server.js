@@ -39,8 +39,8 @@ if(path == '/'){
   response.write('alert("警告！！！电脑管家检测到此页面有病毒，是否继续访问？")')
   response.end()
  }else{
- response.statusCode = 404
- response.end()
+  response.statusCode = 404
+  response.end()
  
  }
 
